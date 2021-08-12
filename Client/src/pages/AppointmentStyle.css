@@ -1,0 +1,18 @@
+.contappointment{
+    display: flex;
+    /* margin: 200px; */
+    padding-top: 18ch;
+    padding-left: 18%;
+}
+.details{
+    /* padding-left: 50%; */
+    /* margin: 50px; */
+    padding-left: 20%;
+    line-height: 5ch;
+}
+h1{
+    font-style: bold;
+}
+.button{
+    margin-top: 4ch;
+}

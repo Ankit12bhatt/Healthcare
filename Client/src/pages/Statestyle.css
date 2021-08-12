@@ -1,0 +1,13 @@
+.contain{
+    padding-right: 0;
+    padding-left: 80px;
+    margin-top: 5px;
+}
+.tablebody :hover{
+    transform: scale(1.1);
+    
+    border: 2px solid rgb(184, 181, 181) ;
+    border-radius: 2px;
+    cursor: pointer;
+    
+}

@@ -1,0 +1,65 @@
+.whole{
+background: black;
+}
+.tracker{
+    color:  white;
+    text-align: center;
+    padding-top: 4%;
+    line-height: 70px;
+
+}
+.tracker h1{
+    font-size: 8ch;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tracker h6{
+    font-size: 4ch;
+}
+.Covidcards{
+    display:  grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    background: black;
+    padding-top: 3%;
+    padding-right: 5%;
+    padding-left: 10%;
+    padding-bottom: 20vh;
+    row-gap: 70px;
+    
+ }  
+.Covidcard-single{
+    display: flex;
+    justify-content: space-between;
+    background:#fff;
+    padding:2rem;
+    border-radius: 30px;
+    /* line-height: 4ch; */
+}
+.Covidcard-single h2{
+    text-align: center;
+    margin-left: 45%;
+    font-style: italic;
+    font-size: 3ch;
+     text-shadow: 2px 2px grey;
+    
+    
+}
+.Covidcard-single h3{
+    text-align: center;
+    margin-left: 35%;
+    font-size: 24px;
+    line-height: 5ch;
+}
+.Covidcard-single span{
+    font-size: 10px;
+    
+}
+.margin-check{
+    margin-left: 0ch;
+}
+.Covidcard-single:hover{
+    transform: scale(1.1);
+    background: rgb(184, 181, 181);
+    cursor: pointer;
+}

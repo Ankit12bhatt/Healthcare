@@ -1,0 +1,19 @@
+.doctitle{
+    width: 100%;
+    padding-top: 4ch;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+.doctitle h1{
+    font-style: italic;
+}
+.doccard{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    margin-top: 6ch;
+    padding-left: 200px;
+    padding-right: 30px;
+    column-gap: 0px;
+    row-gap: 130px;
+    border-radius: 50%;
+}
